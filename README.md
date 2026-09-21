@@ -2,7 +2,7 @@
 
 ### Wifi connection code summary:
 ``
-WiFi.begin("wifi_name","password")//to connect wifi
+WiFi.begin("wifi_name","password")//to connect wifi\n
 WiFi.status() // To check if its connect
 WiFi.localIP() //To showing ip connected network
 ``
