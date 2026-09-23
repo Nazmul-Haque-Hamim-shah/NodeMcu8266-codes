@@ -26,15 +26,19 @@ WiFi.localIP() //To showing ip connected network
 ``
 WiFiClient client;  // Create client object.
 ``
+<br>
 ``
 WiFiServer server(80);  // Create server object and 80 is a port number.
 ``
+<br>
 ``
 server.begin();  //For started the server.
 ``
+<br>
 ``
 client=server.available();  // Gets a client who connect with server and has data for reading
 ``
+<br>
 ``
 client.readStringUntil('\n');  // read string untill {n space} coming.
 ``
@@ -47,7 +51,7 @@ client.readStringUntil('\n');  // read string untill {n space} coming.
 ``
 WiFi.softAP(wifi_name,password);  // Local accesspoint created.
 ``
-
+<br>
 ``
 WiFi.softAPIP();  // To get access point Ip address.
 ``
